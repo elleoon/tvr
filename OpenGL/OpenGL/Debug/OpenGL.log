@@ -1,0 +1,39 @@
+﻿  OpenGl.cpp
+C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(456,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(457,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(492,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(555,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(626,8): warning C4101: edgeWeight: неиспользованная локальная переменная
+C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(659,8): warning C4101: targetVertex: неиспользованная локальная переменная
+C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(660,8): warning C4101: edgeWeight: неиспользованная локальная переменная
+C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(226,21): warning C4018: <: несоответствие типов со знаком и без знака
+  C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(226,21):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(56,12):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "Graph<int>"
+  	C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(222,30):
+  	во время компиляции функции-члена класс шаблон "void Graph<int>::PrintMatrix(void)"
+  		C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(671,21):
+  		см. первую ссылку на "Graph<int>::PrintMatrix" в "mouseClick"
+  
+C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(230,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(232,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(173,20): warning C4018: <: несоответствие типов со знаком и без знака
+  C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(173,20):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(189,35):
+  	во время компиляции функции-члена класс шаблон "Graph<int>::Graph(const int &)"
+  		C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(56,17):
+  		см. первую ссылку на "Graph<int>::Graph" в "void __cdecl `dynamic initializer for 'graph''(void)"
+  	C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(172,45):
+  	во время компиляции функции-члена класс шаблон "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(203,2):
+  		см. первую ссылку на "Graph<int>::GetVertPos" в "Graph<int>::InsertEdge"
+  		C:\Users\Иван\source\repos\OpenGL\OpenGL\OpenGl.cpp(651,21):
+  		см. первую ссылку на "Graph<int>::InsertEdge" в "mouseClick"
+  
+  OpenGL.vcxproj -> C:\Users\Иван\source\repos\OpenGL\Debug\OpenGL.exe
