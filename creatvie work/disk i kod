@@ -1,0 +1,392 @@
+https://drive.google.com/drive/folders/1DtGOtM-vRI9q7UV5kkAtsNnvjzOAb9QD
+
+1)Форма на ознакомительное окно
+#pragma endregion
+  private: System::Void start_Click(System::Object^ sender, System::EventArgs^ e) {
+    MyForm1^ f2 = gcnew MyForm1();
+    f2->Show();
+    MyForm::Hide();
+  }
+  };
+}
+
+2)Форма на тест
+#pragma endregion
+    
+  private: System::Void next(int n) {
+
+    this->text_numberquestions->Text = System::Convert::ToString(n + 1) + "/40";
+    if (n < 10) {
+      array<String^>^ questions;
+      questions = gcnew array<String^>{
+        "Спокойны и хладнокровны",
+        "Последовательны и обстоятельны в делах",
+        "Осторожны и рассудительны",
+        "Умеете ждать",
+        "Молчаливы и не любите зря болтать",
+        "Сдержанны и терпеливы",
+        "Доводите начатое дело до конца",
+        "Не растрачиваете попусту сил",
+        "Легко сдерживаете порывы",
+        "Маловосприимчивы к одобрению и порицанию",
+      };
+      this->text_questions->Text = questions[n];
+    }
+    if (n > 9 && n < 20) {
+      array<String^>^ questions1;
+      questions1 = gcnew array<String^>{
+        "Стеснительны и застенчивы",
+        "Теряетесь в новой обстановке",
+        "Затрудняетесь установить контакт с новыми людьми",
+        "Не верите в свои силы",
+        "Легко переносите одиночество",
+        "Чувствуете подавленность и растерянность при неудачах",
+        "Склонны уходить в себя",
+        "Быстро утомляетесь",
+        "Обладаете тихой речью, иногда снижающейся до шепота",
+        "Впечатлительны до слезливости",
+      };
+      this->text_questions->Text = questions1[n-10];
+    }
+    if (n > 19 && n < 30) {
+      array<String^>^ questions2;
+      questions2 = gcnew array<String^>{
+        "Неусидчивы, суетливы",
+        "Невыдержанны, вспыльчивы",
+        "Нетерпеливы",
+        "Резки и прямолинейны в отношениях с людьми",
+        "Решительны и инициативны",
+        "Упрямы",
+        "Находчивы в споре",
+        "Работаете рывками",
+        "Склонны к риску",
+        "Незлопамятны и необидчивы",
+      };
+      this->text_questions->Text = questions2[n - 20];
+    }
+    if (n > 29 && n < 40) {
+      array<String^>^ questions3;
+      questions3 = gcnew array<String^>{
+        "Веселы и жизнерадостны",
+        "Энергичны и деловиты",
+        "Часто не доводите начатое дело до конца",
+        "Склонны переоценивать себя",
+        "Способны быстро схватывать новое",
+        "Неустойчивы в интересах и склонностях",
+        "Легко переживаете неудачи и неприятности",
+        "Легко приспосабливаетесь к различным обстоятельствам",
+        "С увлечением беретесь за любое новое дело",
+        "Выносливы и работоспособны",
+      };
+      this->text_questions->Text = questions3[n - 30];
+    }
+  }
+  private: System::Void da_Box_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+    if (da_Box->Checked) {
+      net_Box->Checked = false;
+    }
+  }
+private: System::Void net_Box_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {
+  if (net_Box->Checked) {
+    da_Box->Checked = false;
+  }
+}
+
+private: System::Void timer1_Tick(System::Object^ sender, System::EventArgs^ e) {
+  if (Second == 0) {
+    Minute = Minute - 1;
+    Second = 60;
+  }
+  Second--;
+  if (Minute == 0 && Second == 0) {
+    Second = 0;
+    Minute = 15;
+    this->n = 0;
+    this->count = 0;
+    this->j = 0;
+    this->k = 0;
+    this->i = 0;
+    next(this->n);
+  }
+  sec = Convert::ToString(Second);
+  Min = Convert::ToString(Minute);
+  if (Second < 10) {
+    time_label->Text = Min + ":0" + sec;
+  }
+  else {
+    time_label->Text = Min + ":" + sec;
+  }
+
+}
+
+private: System::Void dalee_Click(System::Object^ sender, System::EventArgs^ e) {
+    if (this->n < 39) {
+      previousAnswerYes = da_Box->Checked;
+      if (da_Box->Checked == true) {
+        if (n < 10) {
+          count++; 
+        }
+        if (n > 9 && n < 20) {
+          j++;
+        }
+        if (n > 19 && n < 30) {
+          k++;
+        }
+        if (n > 29 && n < 39) {
+          i++;
+        }
+      }
+      else {
+        count = count;
+        j = j;
+        k = k;
+        i = i;
+      }
+      next(this->n + 1);
+      net_Box->Checked = false;
+      da_Box->Checked = false;
+      this->n = n + 1;
+    }
+    else {
+      if (this->n == 39) {
+        previousAnswerYes = da_Box->Checked;
+        if (da_Box->Checked == true) {
+          i++;
+          dalee->Enabled = false;
+          if (count >= 7) {
+            flag1 = true;
+          }
+          if (j >= 7) {
+            flag2 = true;
+          }
+          if (k >= 7) {
+            flag3 = true;
+          }
+          if (i >= 7) {
+            flag4 = true;
+          }
+        }
+        else {
+          count = count;
+          j = j;
+          k = k;
+          i = i;
+          dalee->Enabled = false;
+          if (count >= 7) {
+            flag1 = true;
+          }
+          if (j >= 7) {
+            flag2 = true;
+          }
+          if (k >= 7) {
+            flag3 = true;
+          }
+          if (i >= 7) {
+            flag4 = true;
+          }
+        }
+      }
+    }
+    if (flag1 ==true) {
+      flagcount++;
+    }
+    if (flag2 == true) {
+      flagcount++;
+    }
+    if (flag3 == true) {
+      flagcount++;
+    }
+    if (flag4 == true) {
+      flagcount++;
+    }
+}
+private: System::Void nazad_Click(System::Object^ sender, System::EventArgs^ e) {
+  if (n != 0 && n < 40) {
+    nazad->Enabled = true;
+    dalee->Enabled = true;
+    if (previousAnswerYes) {
+      if (n < 10) {
+        count--;
+      }
+      if (n > 9 && n < 20) {
+        j--;
+      }
+      if (n > 19 && n < 30) {
+        k--;
+      }
+      if (n > 29 && n < 39) {
+        i--;
+      }
+    }
+    net_Box->Checked = false;
+    da_Box->Checked = false;
+    next(this->n - 1);
+    this->n = n - 1;
+  }
+}
+  private: System::Void konec_Click(System::Object^ sender, System::EventArgs^ e) {
+    if (flagcount == 0 || flagcount >= 3) {
+      MyForm18^ f18 = gcnew MyForm18();
+      f18->Show();
+      MyForm1::Hide();
+    }
+    else {
+      if (flag1 == true) {
+        MyForm2^ f3 = gcnew MyForm2();
+        f3->Show();
+        MyForm1::Hide();
+        if (flag3 == true && flag1 == true) {
+          f3->Hide();
+        }
+        if (flag1 == true && flag2 == true) {
+          f3->Hide();
+        }
+        if (flag1 == true && flag4 == true) {
+          f3->Hide();
+        }
+      }
+      if (flag2 == true) {
+        MyForm3^ f4 = gcnew MyForm3();
+        f4->Show();
+        MyForm1::Hide();
+        if (flag2 == true && flag3 == true) {
+          f4->Hide();
+        }
+        if (flag2 == true && flag1 == true) {
+          f4->Hide();
+        }
+        if (flag2 == true && flag4 == true) {
+          f4->Hide();
+        }
+      }
+      if (flag3 == true) {
+        MyForm4^ f5 = gcnew MyForm4();
+        f5->Show();
+        MyForm1::Hide();
+        if (flag3 == true && flag2 == true) {
+          f5->Hide();
+        }
+        if (flag3 == true && flag1 == true) {
+          f5->Hide();
+        }
+        if (flag3 == true && flag4 == true) {
+          f5->Hide();
+        }
+      }
+      if (flag4 == true) {
+
+        MyForm5^ f6 = gcnew MyForm5();
+        f6->Show();
+        MyForm1::Hide();
+        if (flag4 == flag1) {
+          f6->Hide();
+        }
+        if (flag4 == flag2) {
+          f6->Hide();
+        }
+        if (flag4 == flag3) {
+          f6->Hide();
+        }
+      }
+      if (flag3 == true && flag2 == true) {
+        MyForm6^ f7 = gcnew MyForm6();
+        f7->Show();
+        MyForm1::Hide();
+        if (j > k) {
+          f7->Hide();
+
+}
+      }
+      if (flag3 == true && flag2 == true && j > k) {
+        MyForm7^ f8 = gcnew MyForm7();
+        f8->Show();
+        MyForm1::Hide();
+      }
+      if (flag3 == true && flag1 == true) {
+        MyForm8^ f9 = gcnew MyForm8();
+        f9->Show();
+        MyForm1::Hide();
+        if (count > k) {
+          f9->Hide();
+        }
+      }
+      if (flag3 == true && flag1 == true && count > k) {
+        MyForm9^ f10 = gcnew MyForm9();
+        f10->Show();
+        MyForm1::Hide();
+
+      }
+      if (flag3 == true && flag4 == true) {
+        MyForm10^ f11 = gcnew MyForm10();
+        f11->Show();
+        MyForm1::Hide();
+        if (i > k) {
+          f11->Hide();
+        }
+
+      }
+      if (flag3 == true && flag4 == true && i > k) {
+        MyForm11^ f12 = gcnew MyForm11();
+        f12->Show();
+        MyForm1::Hide();
+
+      }
+      if (flag2 == true && flag1 == true) {
+        MyForm12^ f13 = gcnew MyForm12();
+        f13->Show();
+        MyForm1::Hide();
+        if (count > j) {
+          f13->Hide();
+        }
+
+      }
+      if (flag2 == true && flag1 == true && count > j) {
+        MyForm13^ f14 = gcnew MyForm13();
+        f14->Show();
+        MyForm1::Hide();
+
+      }
+      if (flag2 == true && flag4 == true) {
+        MyForm14^ f15 = gcnew MyForm14();
+        f15->Show();
+        MyForm1::Hide();
+        if (i > j) {
+          f15->Hide();
+        }
+
+      }
+      if (flag2 == true && flag4 == true && i > j) {
+        MyForm15^ f16 = gcnew MyForm15();
+        f16->Show();
+        MyForm1::Hide();
+
+
+      }
+      if (flag1 == true && flag4 == true) {
+        MyForm16^ f17 = gcnew MyForm16();
+        f17->Show();
+        MyForm1::Hide();
+        if (i > count) {
+          f17->Hide();
+        }
+
+      }
+      if (flag1 == true && flag4 == true && i > count) {
+        MyForm17^ f18 = gcnew MyForm17();
+        f18->Show();
+        MyForm1::Hide();
+
+      }
+
+    }
+  }
+};
+}
+
+3)Пример одной из результативных форм
+  private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+    Close();
+    Application::Exit();
+  }
+  };
+}
