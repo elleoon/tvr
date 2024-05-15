@@ -1,0 +1,25 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Творческая работаа.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  MyForm.cpp
+A:\VisualStudio_Project`s\creative work\creative work\MyForm.cpp(7,32): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  MyForm1.cpp
+  MyForm10.cpp
+  MyForm11.cpp
+  MyForm12.cpp
+  MyForm13.cpp
+  MyForm14.cpp
+  MyForm15.cpp
+  MyForm16.cpp
+  MyForm17.cpp
+  MyForm18.cpp
+  MyForm2.cpp
+  MyForm3.cpp
+  MyForm4.cpp
+  MyForm5.cpp
+  MyForm6.cpp
+  MyForm7.cpp
+  MyForm8.cpp
+  MyForm9.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Создание кода...
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  creative work.vcxproj -> A:\VisualStudio_Project`s\creative work\x64\Debug\creative work.exe

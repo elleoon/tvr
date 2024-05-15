@@ -1,0 +1,21 @@
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\creative work.vcxproj.AssemblyReference.cache
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm1.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm10.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm11.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm12.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm13.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm14.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm15.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm16.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm17.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm18.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm2.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm3.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm4.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm5.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm6.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm7.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm8.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\Творческаяработаа.MyForm9.resources
+A:\VisualStudio_Project`s\creative work\creative work\x64\Debug\creative work.vcxproj.GenerateResource.cache

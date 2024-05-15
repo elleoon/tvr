@@ -1,0 +1,42 @@
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческая работаа.vcxproj.AssemblyReference.cache
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm1.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческая работаа.vcxproj.GenerateResource.cache
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm10.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm11.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm12.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm13.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm14.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm15.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm16.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm17.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm18.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm2.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm3.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm4.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm5.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm6.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm7.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm8.resources
+C:\Users\Иван\source\repos\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm9.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческая работаа.vcxproj.AssemblyReference.cache
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm1.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm10.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm11.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm12.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm13.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm14.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm15.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm16.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm17.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm18.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm2.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm3.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm4.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm5.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm6.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm7.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm8.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческаяработаа.MyForm9.resources
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\x64\Debug\Творческая работаа.vcxproj.GenerateResource.cache

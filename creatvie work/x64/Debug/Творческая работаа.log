@@ -1,0 +1,7 @@
+﻿  MyForm.cpp
+A:\VisualStudio_Project`s\Творческая работаа\Творческая работаа\MyForm.cpp(7,32): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  MyForm1.cpp
+  MyForm18.cpp
+  Создание кода...
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Творческая работаа.vcxproj -> A:\VisualStudio_Project`s\Творческая работаа\x64\Debug\Творческая работаа.exe
